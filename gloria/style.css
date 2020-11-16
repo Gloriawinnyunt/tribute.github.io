@@ -1,0 +1,506 @@
+/* =========================== import fonts =========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Quicksand:wght@400;600&family=Sacramento&display=swap');
+
+/* =========================== global =========================== */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+a{
+    color: #000000;
+}
+a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+/* ============================ nav bar =========================== */
+
+
+.hero .pinkhero .gloriaLogo{
+    padding-right: 40px;
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+}
+.hero .pinkhero .gloriaLogo a{
+    text-decoration: none;
+}
+.hero .pinkhero .navbar-nav a{
+    padding-left: 32px;
+}
+
+/* =============================== hero ============================== */
+.hero{
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.hero .pinkhero{
+    width: auto;
+    min-height: 100vh;
+    width: 80%;
+    background-color: #FFE9E3;
+}
+.hero .big-hero-img img{
+    width: auto;
+    height: 100vh;
+    margin-right: 0px;
+}
+.hero .cricle-hero-img{
+    display: inline-block;
+}
+.hero .cricle-hero-img img{
+    width: 170px;
+    height: 170px;
+    border-radius: 170px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.big-name{
+    position: absolute;
+    display: inline-block; 
+}
+.big-name h1{
+    display: inline-block;
+    margin-left: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+h5{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 120px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.about h4{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-weight: 400;
+    color: #EB5E60;
+}
+.about p{
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: 2rem;
+}
+.about{
+    margin-left: 20px;
+}
+.about .btn a{
+    margin-top: 20px;
+    padding: 9px 32px;
+    margin-left: 20px;
+}
+.about .btn-cv{
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    background-color: #FF7274;
+    border: 2px solid #FF7274;
+}
+.about .btn-cv:hover{
+    color: #000;
+}
+.about .btn-contact{
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #EB5E60;
+    color: #000;
+}
+.about .btn-contact:hover{
+    background-color: #FF7274;
+    border: 2px solid #FF7274;
+}
+
+
+
+/* =========================== portfolio =========================== */
+
+.relative{
+    position: relative;
+    align-items: center;
+}
+.relative h2{
+    margin-top: 65px;
+    text-align: center;
+    color: #EB5E60;
+    font-weight: 500;
+}
+.relative p{
+    text-align: center;
+}
+.relative .pj-gallery{
+    margin-top: 50px;
+}
+.relative .pj-gallery img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.relative .pj-gallery img:hover{
+
+    opacity: 0.8;
+}
+.pj-gallery .overlay{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    height: 80%;
+    width: 99%;
+    background-color: #000;
+}
+.col-mr-top{
+    margin-top: 30px;
+}
+
+
+/* =========================== resume =========================== */
+
+.resume{
+    align-items: center;
+}
+
+.resume h2{
+    margin-top: 65px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: #EB5E60;
+    font-family: 'Jost';
+    font-weight: 500;
+}
+.resume h4{
+    margin-bottom: 30px;
+    text-align: left;
+}
+.resume .my{
+    color: #EB5E60;
+    font-size: 1.7rem;
+}
+.resume .resume-text{
+    margin-top: 20px;
+}
+.resume .res-row{
+    margin-top: 25px;
+}
+.res h4{
+    margin-top: 75px;
+}
+.certi h4{
+    margin-top: 75px;
+}
+.certi img{
+    cursor: pointer;
+}
+.resume .btn a{
+    margin-top: 60px;
+    padding: 9px 32px;
+    margin-left: 20px;
+}
+.resume .btn-hire{
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    background-color: #FF7274;
+    border: 2px solid #FF7274;
+}
+.resume .btn-hire:hover{
+    color:#000;
+}
+.resume .btn-cv{
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #EB5E60;
+    color: #000;
+}
+.resume .btn-cv:hover{
+    background-color: #FF7274;
+    border: 2px solid #FF7274;
+}
+
+
+/* =========================== Social Link =========================== */
+.social-link h2{
+    margin-top: 75px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #EB5E60;
+    font-family: 'Jost';
+    font-weight: 500;
+}
+.social-link a{
+    margin: 0px 20px 0px 20px;
+    border-radius: 30px;
+    display: inline;
+}
+.social-link i{
+    color: #db3a3a;
+    font-size: 20px;
+    align-content: center;
+}
+.social-link i:hover{
+    color: #f71c1c;
+}
+
+
+
+/* =========================== footer =========================== */
+.footer{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.footer a:link{
+    text-decoration: none;
+    color: #EB5E60;
+}
+.footer a:visited{
+    text-decoration: none;
+    color: #EB5E60;
+}
+.footer a:hover{
+    text-decoration: none;
+    color: #EB5E60;
+}
+.footer a:active{
+    text-decoration: none;
+    color: #EB5E60;
+}
+/* =========================== screen size =========================== */
+@media (min-width : 1500px){
+    .hero .pinkhero{
+        width: 100%;
+    }
+    .hero .big-hero-img img{
+        display: none;
+    }
+    .hero .cricle-hero-img img{
+        margin-left: 300px;
+    }
+    .about{
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 1200px){
+
+    .hero .pinkhero{
+        width: 100%;
+    }
+    .hero .big-hero-img img{
+        display: none;
+    }
+    .hero .cricle-hero-img img{
+        margin-left: 200px;
+    }
+    .about{
+        margin-left: 200px;
+    }
+    .relative h2{
+        margin-top: 35px;
+    }
+    .relative p{
+        margin-bottom: 10px;
+    }
+    .relative .pj-gallery .img-3{
+        height: 434.96px;
+    }
+    .relative .pj-gallery .img-5{
+        height: 168.52px;
+    }
+}
+
+
+@media (max-width: 992px){
+    .hero .cricle-hero-img img{
+        margin-left: 100px;
+    }
+    .about{
+        margin-left: 20px;
+    }
+    .about .btn a{
+        margin-top: 10px;
+        margin-right: -5px;
+        margin-left: 20px;
+        padding: 8px 25px;
+        font-size: 14px;
+    }
+
+    .relative h2{
+        margin-top: 25px;
+    }
+
+    .relative .pj-gallery{
+        margin-top: 30px;
+    }
+    .relative .pj-gallery .img-3{
+        height: 319.27px;
+    }
+    .relative .pj-gallery .img-4{
+        height: 166.85px;
+    }
+    .relative .pj-gallery .img-5{
+        height: 122.42px;
+    }
+    .certi img{
+        width: 80px;
+        height: 80px;
+    }
+
+}
+
+
+@media (max-width: 768px){
+    .hero .cricle-hero-img img{
+        margin-left: 100px;
+    }
+    .big-name h1{
+        font-size: 1.5rem;
+    }
+    h5{
+        font-size: 0.8rem;
+    }
+    .about h4{
+        font-size: 1.2rem;
+    }
+    .about p{
+        line-height: 2rem;
+    }
+    .about .btn a{
+        margin-top: 10px;
+        margin-right: -5px;
+        margin-left: 20px;
+        padding: 8px 25px;
+        font-size: 14px;
+    }
+
+    .pj-gallery img{
+        width: 100%;
+    }
+
+    .col-mr-top{
+        margin-top: 20px;
+    }
+    .col-mr-middle{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .relative .pj-gallery .img-3{
+        height: auto;
+    }
+    .relative .pj-gallery .img-4{
+        height: auto;
+    }
+    .relative .pj-gallery .img-5{
+        height: auto;
+    }
+    .certi img{
+        width: 60px;
+        height: 60px;
+    }
+    .resume img{
+        margin-left: 30%;
+    }
+    .resume .resume-text{
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .resume h4{
+        margin-top: 25px;
+    }
+    .resume .res-row{
+        margin-top: 5px;
+        
+    }
+    .resume .expedu{
+        margin-left: 10px;
+    }
+    
+}
+
+
+@media (max-width: 576px){
+    .hero .cricle-hero-img img{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .about{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .big-name{
+        position: relative;
+        display: block; 
+    }
+    .big-name h1{
+        font-size: 1.5rem;
+    }
+    h5{
+        margin-top: 20px;
+        font-size: 0.8rem;
+    }
+    .about h4{
+        margin-top: 20px;
+    }
+    .about p{
+        margin-right: 30px;
+        margin-top: 10px;
+        line-height: 1.5rem;
+        font-size: 14px;
+    }
+    .about .btn a{
+        margin-top: 10px;
+        margin-right: -10px;
+        margin-left: 20px;
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    br{
+        display: none;
+    }
+
+    .certi img{
+        width: 40px;
+        height: 40px;
+    }
+    .social-link a{
+        margin: 0px 15px 0px 15px;
+        display: inline;
+    }
+    .social-link i{
+        color: #E32A2A;
+        font-size: 16px;
+        align-content: center;
+    }
+    .footer{
+        padding-top: 30px;
+    }
+}
+@media (max-width: 300px){
+    .certi img{
+        width: 25px;
+        height: 25px;
+    }
+    .resume .btn a{
+        margin-top: 20px;
+        padding: 5px 15px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .social-link h2{
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+}
